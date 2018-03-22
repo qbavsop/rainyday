@@ -1,0 +1,253 @@
+{
+  "photoslider" :  {
+    "00": {
+      "photos" : [
+         {
+           "url" : "http://jakubsobczak.pl/temp/myweather/nature-2570753_960_720.jpg"
+         },
+         {
+           "url" : "http://jakubsobczak.pl/temp/myweather/blue-sky-299764_960_720.jpg"
+         },
+         {
+           "url" : "http://jakubsobczak.pl/temp/myweather/blue-sky-299765_960_720.jpg"
+         }
+       ]
+    },
+    "01d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/ocean-828908_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/blue-sky-299764_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/blue-sky-299765_960_720.jpg"
+          }
+        ]
+     },
+     "02d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/landscape-1539716_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/sky-49520_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/white-clouds-2777495_960_720.jpg"
+          }
+        ]
+     },
+     "03d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/sky-199154_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/sun-203792_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/sky-2786692_960_720.jpg"
+          }
+        ]
+     },
+     "04d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/cloud-2680190_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/sky-691657_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/sky-2418012_960_720.jpg"
+          }
+        ]
+     },
+     "09d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/rain-316579_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/rain-863339_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/water-drops-2873925_960_720.jpg"
+          }
+        ]
+     },
+     "10d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/rain-2466803_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/puddle-2584378_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/fuji-2610327_960_720.jpg"
+          }
+        ]
+     },
+     "11d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/flash-2702168_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/finland-2686959_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/lightning-399853_960_720.jpg"
+          }
+        ]
+     },
+     "13d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/flower-2146627_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/snow-1931714_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/winter-1861704_960_720.jpg"
+          }
+        ]
+     },
+     "50d": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/fog-1494431_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/tree-690253_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/mist-1629209_960_720.jpg"
+          }
+        ]
+     },
+     "01n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/british-columbia-2382640_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/milky-way-2827345_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/night-2561625_960_720.jpg"
+          }
+        ]
+     },
+     "02n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/dark-2597227_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/full-moon-2560857_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/moon-2721064_960_720.jpg"
+          }
+        ]
+     },
+     "03n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/sunset-2616939_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/stars-2618120_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/dark-2598490_960_720.jpg"
+          }
+        ]
+     },
+     "04n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/6003862755_68ec3a561d_b.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/1.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/night_sky_2_by_dark_yarrow-d4ctdcx.jpg"
+          }
+        ]
+     },
+     "09n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/dark-2565771_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/rain-744561_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/car-1168159_960_720.jpg"
+          }
+        ]
+     },
+     "10n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/3.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/2.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/4.jpg"
+          }
+        ]
+     },
+     "11n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/lightning-503155_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/lightning-503157_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/lightning-2095215_960_720.jpg"
+          }
+        ]
+     },
+     "13n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/rain-2606013_960_720.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/210db0f18f1781519a1a5d966783b57e--winter-night-winter-snow.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/c19a7ff2e2947a0df0fe0c138857b630--winter-night-winter-snow.jpg"
+          }
+        ]
+     },
+     "50n": {
+       "photos" : [
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/5.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/Misty-Night.jpg"
+          },
+          {
+            "url" : "http://jakubsobczak.pl/temp/myweather/architecture-2597523_960_720.jpg"
+          }
+        ]
+     }
+
+
+  }
+}

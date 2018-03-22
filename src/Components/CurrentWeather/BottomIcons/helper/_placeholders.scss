@@ -1,0 +1,8 @@
+@import '../../../../helper/variables';
+
+%footer-icon-style {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: $text-color;
+}

@@ -1,0 +1,17 @@
+@import '../../helper/variables';
+
+.forecast {
+    background-color: rgba(0,0,0,.75);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    color: $text-color;
+    padding: 2em !important;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    }
+
+@media screen and (max-width:640px) {
+  .forecast {
+    display: none;
+  }
+}

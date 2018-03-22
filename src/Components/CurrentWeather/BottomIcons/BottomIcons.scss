@@ -1,0 +1,14 @@
+@import 'helper/placeholders';
+@import 'helper/animations';
+
+.footer-icon {
+  @extend %footer-icon-style;
+  stroke-width: 2;
+}
+
+.footer-icon-animation {
+  @extend %footer-icon-style;
+  animation: dash 5s linear alternate infinite;
+  stroke-dasharray: 30;
+  stroke-dashoffset: 100;
+}

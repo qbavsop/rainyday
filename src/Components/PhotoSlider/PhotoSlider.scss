@@ -1,0 +1,35 @@
+@import 'helper/animations';
+@import 'helper/placeholders';
+
+.photoslider {
+    @extend %position;
+    background-color: #000;
+    position: fixed;
+    z-index: -1;
+
+    &:after {
+      @extend %position;
+      background-color: rgba(0,0,0,.7);
+      content: '';
+      position: fixed;
+    }
+
+    &__elem {
+        @extend %position;
+        animation: imageAnimation 18s linear infinite 0s;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        background-repeat: none;
+        background-size: cover;
+        color: transparent;
+        opacity: 0;
+        position: absolute;
+    }
+}
+
+@for $i from 1 through 3 {
+  $ammount: 6s * $i - 6s;
+    .photoslider__elem:nth-child(#{$i}) {
+      animation-delay: $ammount;
+    }
+}

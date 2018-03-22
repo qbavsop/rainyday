@@ -1,0 +1,169 @@
+@import 'helper/variables';
+@import 'helper/animations';
+@import 'helper/placeholders';
+/* sun */
+
+.sun-h {
+  transform: translate(100px, 100px);
+  .sun {
+    transform: translate(-80px, -80px);
+  }
+}
+.sun {
+  fill: $sun-color;
+  opacity: 0.5;
+
+  &--is-rotating1 {
+    animation: 15s linear infinite;
+    animation-name: sun1rotate;
+  }
+
+  &--is-rotating2 {
+    animation: 15s linear infinite;
+    animation-name: sun2rotate;
+  }
+}
+
+/* moon */
+.moon {
+  &__body {
+    @extend %no-stroke;
+    fill: $moon-color;
+  }
+  &__shadow {
+    @extend %no-stroke;
+    fill: darken($moon-color, 10%);
+  }
+}
+
+.star1 {
+  transform: translate(40px, 45px);
+}
+.star2 {
+  transform: translate(170px, 60px);
+}
+.star3 {
+  transform: translate(127px, 175px);
+}
+.star {
+  transform: translate(-9px, -9px);
+  @extend %no-stroke;
+  fill: darken($moon-color, 10%);
+}
+.pulsing {
+  animation: starpulse 2s linear infinite;
+}
+
+/* Clouds */
+.cloud {
+  opacity: .95;
+  &__body {
+    @extend %no-stroke;
+  }
+
+  &__shadow {
+    @extend %no-stroke;
+    opacity: 0.8;
+  }
+}
+@for $i from 1 through 3 {
+  $ammount: 10% * $i;
+
+  .cloud-type#{$i} {
+    .cloud__body {
+      fill: darken($cloud-color, $ammount);
+    }
+
+    .cloud__shadow {
+      fill: darken($cloud-color, $ammount + 5%);
+    }
+  }
+}
+
+.small-sun {
+  transform: translate(55px, 55px);
+  .sun {
+    transform: translate(-55px, -55px);
+  }
+}
+
+/* Rain */
+.rain {
+  @extend %no-fill;
+  animation: raining 1s linear infinite;
+  stroke-dasharray: 10;
+  stroke-dashoffset: 20;
+  stroke-linecap: round;
+  stroke-width: 2;
+  stroke: $blue;
+}
+/* Mist */
+.mistWave {
+  @extend %no-fill;
+  animation: mistwave 15s linear infinite;
+  stroke-dasharray: 10;
+  stroke-dashoffset: 200;
+  stroke-linecap: round;
+  stroke-width: 4;
+  stroke: darken($cloud-color, 10%);
+}
+/* snow */
+
+.snowflake1 {
+  transform: translate(40px, 130px);
+}
+.snowflake2 {
+  transform: translate(120px, 116px);
+}
+.snowflake3 {
+  transform: translate(72px, 102px);
+}
+.snowflake4 {
+  transform: translate(102px, 146px);
+}
+.snowflake5 {
+  transform: translate(151px, 155px);
+}
+
+.snowing {
+  animation: snowing 3s linear infinite;
+}
+.snowflake {
+  transform: translate(-10px, -10px);
+  @extend %no-stroke;
+  fill: $blue;
+}
+.snowflake3, .snowflake4, .snowflake5 {
+  .snowflake {
+    transform: translate(-6px, -6px);
+  }
+}
+
+#icon10d,
+#icon10n {
+  .cloud-type1,
+  .cloud-type3,
+  .moon,
+  .sun-h {
+    transform: translateY(-10px);
+  }
+}
+
+#icon11d,
+#icon11n {
+  .cloud-type1,
+  .cloud-type2,
+  .cloud-type3 {
+    transform: translateY(-10px);
+  }
+}
+
+.thunder {
+  @extend %no-stroke;
+  animation: thunderstrike 1s linear infinite;
+  fill: $sun-color;
+}
+
+.thunderstrike {
+  animation-delay: 0.5s;
+}
